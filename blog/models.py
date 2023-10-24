@@ -5,7 +5,7 @@ from django.contrib.auth.models import User
 from blog.managers import PublishedManager
 from django.urls import reverse
 # Create your models here.
-
+# test comment
 
 class Post(models.Model):
     objects = models.Manager()
